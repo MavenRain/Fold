@@ -1,4 +1,5 @@
-
+class Functional
+{
     template<typename Accumulator, typename BeginIterator, typename EndIterator, typename Range>
     static Range FoldImpl(BeginIterator front, EndIterator back, Range initial)
     {
